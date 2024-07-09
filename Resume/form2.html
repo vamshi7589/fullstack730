@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application form</title>
+</head>
+
+<body>
+    <h1>Job Application Form</h1>
+    <form action="main.java" method="get">
+        <input type="text" name="fname" id="fname" placeholder="first name"
+        required minlength="6" maxlength="7">
+        <input type="text" name="lname" id="lname" placeholder="last name"><br>
+        <br>
+        <input type="email" name="em" id="em" placeholder="enter your email"><br><br>
+        <label>
+            <input type="radio" name="gender" id="female">
+        </label>
+        <label for id="female">Female
+        </label>
+        <label>
+            <input type="radio" name="gender" id="Male">
+        </label>
+        <label for id="Male">Male
+        </label><br><br>
+        <label>Languages known:</label>
+        <input type="checkbox" name="telugu" id="te">
+        <label for id="te">Telugu</label>
+        <input type="checkbox" name="telugu" id="ta">
+        <label for id="ta">Tamil</label>
+        <input type="checkbox" name="Hindi" id="hi">
+        <label for id="hi">Hindi</label><br><br>
+        <label>Select state:</label>
+        <select name="state" id="select">
+        <option value="AP">AP</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Kerala">Kerala</option>
+        <option value="west Bengal">West Bengal</option>
+    </select>
+    <button type="submit">SUBMIT</button>
+    </form>
+</body>
+
+</html>
