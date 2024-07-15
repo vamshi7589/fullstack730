@@ -1,0 +1,47 @@
+html{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    border-radius: 60%;
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+    
+}
+.name{
+    color: hsl(0, 0%, 100%);
+    margin: 20px;
+
+}
+.heading{
+    color: hsl(0, 0%, 100%);
+}
+.p1{
+    color:   hsl(75, 94%, 57%);
+    padding-left: 30px;
+}
+
+body{
+    background-color: hsl(0, 0%, 12%);
+    padding:20px;
+    width: 375px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+
+}
+.git,.frontend,.insta,.linkedin,.twitter{
+    background-color:  hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    height: max-content;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.main{
+    padding-top: auto;
+}
